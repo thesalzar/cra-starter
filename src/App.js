@@ -13,7 +13,7 @@ Amplify.configure(awsConfig);
 function onCreate() {
   DataStore.save(
     new Todo({
-      description: `Test todo ${Math.random().toString(36).substring(2, 5)}`
+      description: `I changed this ${Math.random().toString(36).substring(2, 5)}`
     })
   );
 }
